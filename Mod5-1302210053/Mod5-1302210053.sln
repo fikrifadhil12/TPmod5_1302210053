@@ -1,25 +1,16 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.33414.496
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod5-1302210053", "Mod5-1302210053\Mod5-1302210053.csproj", "{600C3570-617E-4E39-AB60-A7A16FF3C86D}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{600C3570-617E-4E39-AB60-A7A16FF3C86D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{600C3570-617E-4E39-AB60-A7A16FF3C86D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{600C3570-617E-4E39-AB60-A7A16FF3C86D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{600C3570-617E-4E39-AB60-A7A16FF3C86D}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {84643ED2-0278-49E2-9956-FD2A4801F0F4}
-	EndGlobalSection
-EndGlobal
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TP_MOD5_1302210053
+{
+    internal class HaloGeneric
+    {
+        public void SapaUser(String x)
+        {
+            Console.WriteLine("Halo User " + x);
+        }
+    }
+}
